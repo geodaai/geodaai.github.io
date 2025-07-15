@@ -49,13 +49,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
-      - name: Change working directory
-        run: cd website
+          cache: 'pnpm'
+          cache-dependency-path: website/pnpm-lock.yaml
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+        working-directory: website
       - name: Build
         run: pnpm build
+        working-directory: website
         env:
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
       - name: Setup Pages
