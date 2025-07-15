@@ -16,10 +16,10 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://geodacenter.github.io',
+  url: 'https://geodaopenjs.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/geoda-openjs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -74,12 +74,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: '',
+      title: 'GeoDa OpenJS Project',
       logo: {
-        alt: 'My Site Logo',
-        src: 'https://github.com/openjs-foundation/artwork/raw/main/openjs_foundation/openjs_foundation-logo-horizontal-black.png',
-        srcDark:
-          'https://github.com/openjs-foundation/artwork/raw/main/openjs_foundation/openjs_foundation-logo-horizontal-white.png',
+        alt: 'GeoDa OpenJS Project Logo',
+        src: 'https://github.com/openjs-foundation/artwork/raw/main/openjs_foundation/openjs_foundation-icon-color.png',
       },
       items: [
         // {
@@ -130,13 +128,13 @@ const config: Config = {
             // },
             {
               label: 'GitHub',
-              href: 'https://github.com/geodacenter/openassistant',
+              href: 'https://github.com/geodaopenjs/openassistant',
             },
           ],
         },
       ],
       copyright:
-        'Copyright <a href="https://openjsf.org">OpenJS Foundation</a> and <a href="https://github.com/geodacenter/openassistant">OpenAssistant</a> and <a href="https://github.com/geodacenter/geodalib">GeoDaLib</a> contributors. All rights reserved. The <a href="https://openjsf.org">OpenJS Foundation</a> has registered trademarks and uses trademarks. For a list of trademarks of the <a href="https://openjsf.org">OpenJS Foundation</a>, please see our <a href="https://trademark-policy.openjsf.org/">Trademark Policy</a> and <a href="https://trademark-list.openjsf.org/">Trademark List</a>. Trademarks and logos not indicated on the <a href="https://trademark-list.openjsf.org">list of OpenJS Foundation trademarks</a> are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.<br/><a href="https://openjsf.org/">The OpenJS Foundation</a> | <a href="https://terms-of-use.openjsf.org/">Terms of Use</a> | <a href="https://privacy-policy.openjsf.org/">Privacy Policy</a> | <a href="https://bylaws.openjsf.org/">Bylaws</a> | <a href="https://code-of-conduct.openjsf.org">Code of Conduct</a> | <a href="https://trademark-policy.openjsf.org/">Trademark Policy</a> | <a href="https://trademark-list.openjsf.org/">Trademark List</a> | <a href="https://www.linuxfoundation.org/cookies/">Cookie Policy</a>',
+        'Copyright <a href="https://openjsf.org">OpenJS Foundation</a> and <a href="https://github.com/geodaopenjs/openassistant">OpenAssistant</a> and <a href="https://github.com/geodaopenjs/geodalib">GeoDaLib</a> contributors. All rights reserved. The <a href="https://openjsf.org">OpenJS Foundation</a> has registered trademarks and uses trademarks. For a list of trademarks of the <a href="https://openjsf.org">OpenJS Foundation</a>, please see our <a href="https://trademark-policy.openjsf.org/">Trademark Policy</a> and <a href="https://trademark-list.openjsf.org/">Trademark List</a>. Trademarks and logos not indicated on the <a href="https://trademark-list.openjsf.org">list of OpenJS Foundation trademarks</a> are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.<br/><a href="https://openjsf.org/">The OpenJS Foundation</a> | <a href="https://terms-of-use.openjsf.org/">Terms of Use</a> | <a href="https://privacy-policy.openjsf.org/">Privacy Policy</a> | <a href="https://bylaws.openjsf.org/">Bylaws</a> | <a href="https://code-of-conduct.openjsf.org">Code of Conduct</a> | <a href="https://trademark-policy.openjsf.org/">Trademark Policy</a> | <a href="https://trademark-list.openjsf.org/">Trademark List</a> | <a href="https://www.linuxfoundation.org/cookies/">Cookie Policy</a>',
     },
     prism: {
       theme: prismThemes.github,
