@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'GeoDaLib',
     github: 'https://github.com/geodacenter/geodalib',
-    image: '/img/geoda-lib-thumbnail.png',
+    image: 'img/geoda-lib-thumbnail.png',
     description: (
       <>
         GeoDaLib is a modern Javascript library for spatial data analysis for
