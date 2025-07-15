@@ -44,7 +44,7 @@ The Advisory Committee provides perspective and advice to the Technical Steering
 * Sets and maintains the project guidelines.
 * Sets and maintains the project's feature and bug fix process.
 * Enforces the Code of Conduct.
-* Approves changes to the GeoDa OpenJS Charter and this document in coordination with the OpenJS CPC as described in the [GeoDa OpenJS Charter](https://github.com/GeoDaCenter/GeoDa-OpenJS/blob/main/CHARTER.md).
+* Approves changes to the GeoDa OpenJS Charter and this document in coordination with the OpenJS CPC as described in the [GeoDa OpenJS Charter](https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/CHARTER.md).
 * The TSC may designate entities to perform security and privacy reviews of GeoDa OpenJS code/features.
 * The TSC may escalate legal questions to the Foundation. 
 * Decisions within the TSC follow the decision-making policy, and are facilitated by the Facilitator or their designate.

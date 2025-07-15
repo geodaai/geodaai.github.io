@@ -63,21 +63,15 @@ interface ExampleCardProps {
 function ExampleCard({ title, description, link, imageSrc, imageAlt }: ExampleCardProps) {
   return (
     <div className={styles.exampleCard}>
+      <img 
+        src={imageSrc} 
+        alt={imageAlt} 
+        className={styles.cardImage}
+      />
       <div className={styles.cardContent}>
-        <div className={styles.cardLeft}>
-          <h3 className={styles.cardTitle}>{title}</h3>
-          <p className={styles.cardDescription}>{description}</p>
-          <Link className={styles.cardButton} to={link}>
-            View Example
-          </Link>
-        </div>
-        <div className={styles.cardRight}>
-          <img 
-            src={imageSrc} 
-            alt={imageAlt} 
-            className={styles.cardImage}
-          />
-        </div>
+        <Link className={styles.cardButton} to={link}>
+          {title}
+        </Link>
       </div>
     </div>
   );
@@ -86,17 +80,41 @@ function ExampleCard({ title, description, link, imageSrc, imageAlt }: ExampleCa
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title="GeoDa OpenJS Project"
-      description="GeoDa OpenJS Project"
-    >
+    <Layout title="GeoDa OpenJS Project" description="GeoDa OpenJS Project">
       <HomepageHeader />
       <main>
-        {/* <div className={styles.sectionHeading}>
+        <div className={styles.sectionHeading}>
           <h2>Projects</h2>
           <h4>The GeoDa OpenJS projects</h4>
-        </div> */}
+        </div>
         <HomepageFeatures />
+        <div className={styles.sectionHeading}>
+          <h2>Examples</h2>
+          <h4>The projects use GeoDa OpenJS libraries</h4>
+        </div>
+        <div className={styles.exampleCardsContainer}>
+          <ExampleCard
+            title="Kepler.gl AI Assistant"
+            description="This is an example of a project"
+            link="https://github.com/keplergl/kepler.gl/discussions/2843#discussioncomment-13326013"
+            imageSrc="https://github.com/user-attachments/assets/dc18c468-4a75-41ea-b724-ffac0d4f82ac"
+            imageAlt="Kepler.gl AI Assistant"
+          />
+          <ExampleCard
+            title="SqlRooms AI Assistant"
+            description="This is an example of a project"
+            link="https://sqlrooms.org"
+            imageSrc="https://sqlrooms.org/assets/collage.DKGrBvB9.webp"
+            imageAlt="SqlRooms AI Assistant"
+          />
+          <ExampleCard
+            title="GeoDa.AI"
+            description="This is an example of a project"
+            link="https://geoda.ai"
+            imageSrc="/img/geoda-ai.png"
+            imageAlt="GeoDa.AI prototype"
+          />
+        </div>
       </main>
     </Layout>
   );

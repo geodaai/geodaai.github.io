@@ -2,7 +2,7 @@
 
 ## Section 0: Guiding Principles (optional)
 
-**Vision:** Spatial data analysis that empowers the AI era with powerful, accessible geospatial tools.
+**Vision:** Spatial data analysis for GenAI.
 
 **Mission:** GeoDa OpenJS aims to develop modern JavaScript libraries for spatial data analysis that powers AI assistants with advanced geospatial capabilities and interactive interfaces.
 
