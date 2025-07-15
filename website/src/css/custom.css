@@ -1,0 +1,46 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e5aa0;
+  --ifm-color-primary-dark: #295091;
+  --ifm-color-primary-darker: #274b88;
+  --ifm-color-primary-darkest: #203e70;
+  --ifm-color-primary-light: #3364af;
+  --ifm-color-primary-lighter: #3569b8;
+  --ifm-color-primary-lightest: #4a7ac7;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #e0e0e0;
+  --ifm-color-primary-dark: #c0c0c0;
+  --ifm-color-primary-darker: #a0a0a0;
+  --ifm-color-primary-darkest: #808080;
+  --ifm-color-primary-light: #f0f0f0;
+  --ifm-color-primary-lighter: #f5f5f5;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom footer copyright styling */
+.footer__copyright {
+  font-size: 0.8rem;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.footer__copyright a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.footer__copyright a:hover {
+  text-decoration: none;
+}

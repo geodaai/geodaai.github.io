@@ -1,0 +1,216 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px!important;
+}
+
+.subtitle {
+  font-size: 1.0rem;
+}
+
+.sectionHeading {
+  text-align: center;
+  margin: 2rem 2rem 0 2rem;
+}
+
+.sectionHeading h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #666;
+}
+
+.sectionHeading h4 {
+  font-size: 1.0rem;
+  font-weight: 400;
+  color: #666;
+}
+
+/* Custom Logo Styles */
+.customLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.logoLeft,
+.logoRight {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* CSS-only theme switching for logoLeft */
+.logoLeftContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.logoLeft {
+  /* Hide the original src image but keep it for layout */
+  opacity: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.logoLeftContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://github.com/openjs-foundation/artwork/raw/main/openjs_foundation/openjs_foundation-logo-horizontal-color-dark_background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+
+[data-theme='dark'] .logoLeftContainer::before {
+  background-image: url("https://github.com/openjs-foundation/artwork/raw/main/openjs_foundation/openjs_foundation-logo-horizontal-color.png");
+}
+
+.logoRight {
+  height: 60px;
+}
+
+.logoLeft:hover,
+.logoRight:hover {
+  transform: scale(1.05);
+}
+
+.logoSeparator {
+  width: 2px;
+  height: 60px;
+  background: linear-gradient(to bottom, transparent, #666, transparent);
+  border-radius: 1px;
+}
+
+/* Example Card Styles */
+.exampleCard {
+  border: 0.1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 2rem;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.exampleCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cardContent {
+  display: flex;
+  min-height: 200px;
+}
+
+.cardLeft {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.cardDescription {
+  color: #666;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
+}
+
+.cardButton {
+  display: inline-block;
+  background: #ccc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+  align-self: flex-start;
+}
+
+.cardButton:hover {
+  background: #0056b3;
+  text-decoration: none;
+  color: white;
+}
+
+.cardRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  padding: 1rem;
+}
+
+.cardImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .customLogo {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  
+  .logoLeft,
+  .logoRight {
+    height: 50px;
+  }
+  
+  .logoSeparator {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #666, transparent);
+  }
+
+  .cardContent {
+    flex-direction: column;
+  }
+
+  .cardRight {
+    min-height: 150px;
+  }
+}
