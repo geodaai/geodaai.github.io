@@ -27,7 +27,7 @@ The Advisory Committee provides perspective and advice to the Technical Steering
 #### Membership
 * Membership on the Advisory Committee shall include representatives from major GeoDa OpenJS constituencies (Collaborators, Contributors, Users and End-Users) who are committed to fulfilling [GeoDa OpenJS's vision and mission](https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/CHARTER.md#section-0-guiding-principles-optional).
 * Membership on the Advisory Committee is not time limited.
-* The target size of the Advisory Committee is 6-12 members, but there is no fixed size.
+* The target size of the Advisory Committee is 3-6 members, but there is no fixed size.
 * Once established the Advisory Committee sets its own membership through the consensus-based process.
 * No more than ⅓ of the Advisory Committee should be from one employer.
 * The Advisory Committee will designate a Facilitator from among its members for the purposes of facilitating the consensus-based decision-making process.
@@ -53,7 +53,7 @@ The Advisory Committee provides perspective and advice to the Technical Steering
 
 * The TSC shall be composed of members with significant experience contributing to GeoDa OpenJS on a technical and product level.
 * Membership on the TSC is not time-limited.
-* The target size of the TSC is 6-12 members, but there is no fixed size.
+* The target size of the TSC is 3-6 members, but there is no fixed size.
 * Once established the TSC sets its own membership through the consensus-based process.
 * The TSC shall have a goal of having no more than ⅓ of the TSC from one employer.  Given the requirement that membership in the TSC requires recognized technical and/or product experience with GeoDa OpenJS this may not be feasible at the time the TSC is formed, but the TSC should actively work towards this goal.
 * Entities (such as a company) may be granted seats on the TSC.  In these cases certain conditions may be placed on the seat (such as maintaining committed resources to the project). The entity may designate the individual representing the entity at the TSC and may change this individual at their discretion.
