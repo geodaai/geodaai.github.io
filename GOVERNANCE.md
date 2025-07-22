@@ -25,7 +25,7 @@
 The Advisory Committee provides perspective and advice to the Technical Steering Committee. This advice is non-binding.
 
 #### Membership
-* Membership on the Advisory Committee shall include representatives from major GeoDa OpenJS constituencies (Collaborators, Contributors, Users and End-Users) who are committed to fulfilling [GeoDa OpenJS's vision and mission](https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/CHARTER.md#section-0-guiding-principles-optional).
+* Membership on the Advisory Committee shall include representatives from major GeoDa OpenJS constituencies (Collaborators, Contributors, Users and End-Users) who are committed to fulfilling [GeoDa OpenJS's vision and mission](https://github.com/geodaai/geodaai.github.io/blob/main/CHARTER.md#section-0-guiding-principles-optional).
 * Membership on the Advisory Committee is not time limited.
 * The target size of the Advisory Committee is 3-6 members, but there is no fixed size.
 * Once established the Advisory Committee sets its own membership through the consensus-based process.
@@ -36,7 +36,7 @@ The Advisory Committee provides perspective and advice to the Technical Steering
 
 #### Role
 
-* Technical leadership of the GeoDa OpenJS project is delegated to the TSC by the OpenJS Cross Project Council (CPC) in accordance with the [GeoDa OpenJS Charter](https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/CHARTER.md).
+* Technical leadership of the GeoDa OpenJS project is delegated to the TSC by the OpenJS Cross Project Council (CPC) in accordance with the [GeoDa OpenJS Charter](https://github.com/geodaai/geodaai.github.io/blob/main/CHARTER.md).
 * The TSC's primary role is setting GeoDa OpenJS's technical & product direction based on the project's vision of empowering the AI era with powerful, accessible geospatial tools.
 * Creates a product roadmap in consultation with the Working Groups.
 * Creates Working Groups and sets the initial membership & initial Facilitator of the Working Groups.  The TSC may initiate the creation of Working Groups or a group of people with a common interest may request recognition as a Working Group.
@@ -44,7 +44,7 @@ The Advisory Committee provides perspective and advice to the Technical Steering
 * Sets and maintains the project guidelines.
 * Sets and maintains the project's feature and bug fix process.
 * Enforces the Code of Conduct.
-* Approves changes to the GeoDa OpenJS Charter and this document in coordination with the OpenJS CPC as described in the [GeoDa OpenJS Charter](https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/CHARTER.md).
+* Approves changes to the GeoDa OpenJS Charter and this document in coordination with the OpenJS CPC as described in the [GeoDa OpenJS Charter](https://github.com/geodaai/geodaai.github.io/blob/main/CHARTER.md).
 * The TSC may designate entities to perform security and privacy reviews of GeoDa OpenJS code/features.
 * The TSC may escalate legal questions to the Foundation. 
 * Decisions within the TSC follow the decision-making policy, and are facilitated by the Facilitator or their designate.

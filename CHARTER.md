@@ -10,8 +10,8 @@
 
 GeoDa OpenJS is an open source project that provides modern Javascript librares for spatial data analysis for the AI era:
 
-- 1. [OpenAssistant repository](https://github.com/geodaopenjs/openassistant) - A Javascript library for building AI Assistant with powerful data analysis tools and interactive React chat UI
-- 2. [GeoDa-Lib repository](https://github.com/geodaopenjs/geodalib) - A modern Javascript library for spatial data analysis
+- 1. [OpenAssistant repository](https://github.com/geodaai/openassistant) - A Javascript library for building AI Assistant with powerful data analysis tools and interactive React chat UI
+- 2. [GeoDa-Lib repository](https://github.com/geodaai/geodalib) - A modern Javascript library for spatial data analysis
 
 ## Section 2: Relationship with OpenJS Foundation CPC.
 
@@ -47,8 +47,8 @@ Other project roles are defined in GeoDa OpenJS’s [governance document][govern
 
 Terms used throughout the project are defined in the [Glossary section][glossary] of GeoDa OpenJS’s [governance document][governance].
 
-[governance]: https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/GOVERNANCE.md
+[governance]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md
 [cpc-decision]: https://github.com/openjs-foundation/cross-project-council/blob/master/CPC-CHARTER.md#section-9-decision-making
-[geoda-decision]: https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/GOVERNANCE.md#decision-making-policy
-[glossary]: https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/GOVERNANCE.md#glossary
-[tsc-role]: https://github.com/geodaopenjs/geodaopenjs.github.io/blob/main/GOVERNANCE.md#role
+[geoda-decision]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#decision-making-policy
+[glossary]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#glossary
+[tsc-role]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#role

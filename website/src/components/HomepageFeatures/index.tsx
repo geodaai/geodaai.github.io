@@ -17,7 +17,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'OpenAssistant',
-    github: 'https://github.com/geodaopenjs/openassistant',
+    github: 'https://github.com/geodaai/openassistant',
     image: 'https://openassistant-doc.vercel.app/img/geoda-tool.png',
     description: (
       <>
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'GeoDaLib',
-    github: 'https://github.com/geodaopenjs/geodalib',
+    github: 'https://github.com/geodaai/geodalib',
     image: 'img/geoda-lib-thumbnail.png',
     description: (
       <>
@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
         the AI era.
       </>
     ),
-    learnMoreLink: 'https://geodaopenjs.github.io/geodalib/',
+    learnMoreLink: 'https://geodaai.github.io/geodalib/',
     learnMoreText: 'Learn More about GeoDaLib',
   },
 ];
