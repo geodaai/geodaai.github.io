@@ -136,7 +136,7 @@ const config: Config = {
             },
             {
               label: 'GeoDa.AI GitHub',
-              href: 'https://github.com/geodaai/nextgeoda',
+              href: 'https://github.com/GeoDaCenter/nextgeoda',
             },
           ],
         },

@@ -168,7 +168,15 @@ export default function Home(): ReactNode {
             link="https://geoda.ai"
             imageSrc="/img/geoda-ai.png"
             imageAlt="GeoDa.AI prototype"
-            githubLink="https://github.com/geodaai/nextgeoda"
+            githubLink="https://github.com/GeoDaCenter/nextgeoda"
+          />
+          <ExampleCard
+            title="GeoDa Data AI"
+            description="This is a prototype of the AI Assistant for GeoDa Data"
+            link="https://geodacenter.github.io/data-and-lab/Chi-Carjackings/"
+            imageSrc="/img/geoda-data-ai.png"
+            imageAlt="GeoDa Data AI Assistant"
+            githubLink="https://github.com/GeoDaCenter/data-and-lab"
           />
         </div>
       </main>
