@@ -30,6 +30,34 @@
   font-size: 1.0rem;
 }
 
+/* Typewriter effect styles */
+.typewriterText {
+  display: inline-block;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  font-weight: bold;
+  color: #ff6b6b;
+  border-right: 2px solid #ff6b6b;
+  margin-left: 2px;
+  padding-right: 2px;
+}
+
+.cursorComplete {
+  animation: blink 0.8s infinite; 
+  border-right: 2px solid #ff6b6b;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
 .sectionHeading {
   margin: 2rem 2rem 0 2rem;
 }
@@ -165,6 +193,13 @@
   flex-grow: 1;
 }
 
+.cardButtonContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  align-self: flex-start;
+}
+
 .cardButton {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -172,7 +207,6 @@
   text-decoration: none;
   font-weight: 500;
   transition: background-color 0.2s ease-in-out;
-  align-self: flex-start;
   text-align: center;
 }
 
@@ -180,6 +214,31 @@
   background: #0056b3;
   text-decoration: none;
   color: white;
+}
+
+.githubLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #666;
+  transition: all 0.2s ease-in-out;
+  width: 36px;
+  height: 36px;
+}
+
+.githubLink:hover {
+  background: #e9ecef;
+  color: #333;
+  text-decoration: none;
+  border-color: #adb5bd;
+  transform: scale(1.05);
+}
+
+.githubIcon {
+  flex-shrink: 0;
 }
 
 /* Responsive design for smaller screens */
