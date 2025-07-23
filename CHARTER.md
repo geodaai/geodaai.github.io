@@ -25,30 +25,30 @@ Section Intentionally Left Blank
 
 ## Section 3: GeoDa OpenJS Project Governing Body
 
-GeoDa OpenJS’s governance model and its various governing bodies are defined in GeoDa OpenJS’s [governance document][governance].
+GeoDa OpenJS's governance model and its various governing bodies are defined in GeoDa OpenJS's [governance document][governance].
 
 ## Section 4: Roles & Responsibilities
 
-The role and responsibilities of GeoDa OpenJS’s governing bodies are defined in GeoDa OpenJS’s [governance document][governance].
+The role and responsibilities of GeoDa OpenJS's governing bodies are defined in GeoDa OpenJS's [governance document][governance].
 
 ### Section 4.1 Project Operations & Management (optional)
 
-The GeoDa OpenJS TSC delegates responsibilities for GeoDa OpenJS’s operations and management to the GeoDa OpenJS Working Groups as described in the [TSC's Role section][tsc-role] of GeoDa OpenJS’s [governance document][governance].
+The GeoDa OpenJS TSC delegates responsibilities for GeoDa OpenJS's operations and management to the GeoDa OpenJS Working Groups as described in the [TSC's Role section][tsc-role] of GeoDa OpenJS's [governance document][governance].
 
 ### Section 4.2: Decision-making, Voting, and/or Elections (optional)
 
-GeoDa OpenJS’s [decision-making policy][geoda-decision] is defined in GeoDa OpenJS’s [governance document][governance].
+GeoDa OpenJS's [decision-making policy][geoda-decision] is defined in GeoDa OpenJS's [governance document][governance].
 
 ### Section 4.3: Other Project Roles (optional)
 
-Other project roles are defined in GeoDa OpenJS’s [governance document][governance] and defined in or referenced from the Contributing documents of repositories in which additional roles are relevant.
+Other project roles are defined in GeoDa OpenJS's [governance document][governance] and defined in or referenced from the Contributing documents of repositories in which additional roles are relevant.
 
 ## Section 5: Definitions (optional)
 
-Terms used throughout the project are defined in the [Glossary section][glossary] of GeoDa OpenJS’s [governance document][governance].
+Terms used throughout the project are defined in the [Glossary section][glossary] of GeoDa OpenJS's [governance document][governance].
 
 [governance]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md
 [cpc-decision]: https://github.com/openjs-foundation/cross-project-council/blob/master/CPC-CHARTER.md#section-9-decision-making
 [geoda-decision]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#decision-making-policy
 [glossary]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#glossary
-[tsc-role]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#role
+[tsc-role]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#role 
