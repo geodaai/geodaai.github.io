@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Spatial Data Analysis for GenAI',
   tagline:
-    '🚀 The GeoDa OpenJS project aims to develop modern JavaScript libraries for spatial data analysis that powers AI assistants with advanced geospatial tools and interactive interfaces 🤖',
+    '🚀 The GeoDa AI project aims to develop modern JavaScript libraries for spatial data analysis that powers AI assistants with advanced geospatial tools and interactive interfaces 🤖',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -74,9 +74,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'GeoDa OpenJS Project',
+      title: 'GeoDa AI Project',
       logo: {
-        alt: 'GeoDa OpenJS Project Logo',
+        alt: 'GeoDa AI Project Logo',
         src: 'img/logo.svg',
       },
       items: [
