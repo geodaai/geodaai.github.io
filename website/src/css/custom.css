@@ -44,3 +44,47 @@
 .footer__copyright a:hover {
   text-decoration: none;
 }
+
+/* Footer custom layout */
+.footer-custom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-logos-left,
+.footer-logos-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+/* Light/Dark logo switching */
+.light-only {
+  display: inline-block;
+}
+
+.dark-only {
+  display: none;
+}
+
+[data-theme='dark'] .light-only {
+  display: none;
+}
+
+[data-theme='dark'] .dark-only {
+  display: inline-block;
+}
