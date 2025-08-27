@@ -1,25 +1,25 @@
-# GeoDa AI Project
+# GeoDa.AI Project
 
-This is the repository for information about the GeoDa AI project.
+This is the repository for information about the GeoDa.AI project.
 
 ## Project Overview
 
-GeoDa AI is a project to create modern Javascript libraries for spatial data analysis for the AI era.
+GeoDa.AI is a project to create modern Javascript libraries for spatial data analysis for the AI era.
 
 ## Project Goals
 
-The goals of the GeoDa AI project are to:
+The goals of the GeoDa.AI project are to:
 
 - 1. Create a Javascript library for building AI Assistant with powerful data analysis tools and interactive React chat UI in [OpenAssistant repository](https://github.com/geodaai/openassistant)
 - 2. Create a modern Javascript library for spatial data analysis in [GeoDa-Lib repository](https://github.com/geodaai/geodalib)
 
 ## Project Governance
 
-The GeoDa AI project charter is:
+The GeoDa.AI project charter is:
 
 - [Charter](https://github.com/geodaai/geodaai.github.io/blob/main/CHARTER.md)
 
-The GeoDa AI project uses the following governance model:
+The GeoDa.AI project uses the following governance model:
 
 - [Governance](https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md)
 
@@ -39,7 +39,7 @@ The current members of the Technical Steering Committee are:
 
 ## Code of Conduct
 
-The GeoDa AI project uses the following code of conduct:
+The GeoDa.AI project uses the following code of conduct:
 
 - [Code of Conduct](https://github.com/geodaai/geodaai.github.io/blob/main/CODE_OF_CONDUCT.md)
 
@@ -47,8 +47,8 @@ This code of conduct defines the expected behavior of all participants in the pr
 
 ## Contributing
 
-The GeoDa AI project welcomes contributions from the community. Please see the [Contributing](https://github.com/geodaai/geodaai.github.io/blob/main/CONTRIBUTING.md) file for more information.
+The GeoDa.AI project welcomes contributions from the community. Please see the [Contributing](https://github.com/geodaai/geodaai.github.io/blob/main/CONTRIBUTING.md) file for more information.
 
 ## License
 
-The GeoDa AI project is licensed under the [MIT License](https://github.com/geodaai/geodaai.github.io/blob/main/LICENSE).
+The GeoDa.AI project is licensed under the [MIT License](https://github.com/geodaai/geodaai.github.io/blob/main/LICENSE).

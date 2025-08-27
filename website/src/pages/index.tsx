@@ -133,17 +133,17 @@ function ExampleCard({
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title="GeoDa AI Project" description="GeoDa AI Project">
+    <Layout title="GeoDa.AI Project" description="GeoDa.AI Project">
       <HomepageHeader />
       <main>
         <div className={styles.sectionHeading}>
           <h2>⚙️ Libraries</h2>
-          <h4>The GeoDa AI libraries</h4>
+          <h4>The GeoDa.AI libraries</h4>
         </div>
         <HomepageFeatures />
         <div className={styles.sectionHeading}>
           <h2>🚀 Projects</h2>
-          <h4>The projects that use GeoDa AI libraries</h4>
+          <h4>The projects that use GeoDa.AI libraries</h4>
         </div>
         <div className={styles.exampleCardsContainer}>
           <ExampleCard
