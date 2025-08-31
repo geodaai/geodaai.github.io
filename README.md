@@ -36,6 +36,7 @@ The current members of the Technical Steering Committee are:
 - [Luc Anselin](https://github.com/lanselin)
 - [Julia Koschinsky](https://github.com/jkoschinsky)
 - [Xun Li](https://github.com/lixun910)
+- [Ilya Boyandin](https://ilya.boyandin.me)
 
 ## Code of Conduct
 
