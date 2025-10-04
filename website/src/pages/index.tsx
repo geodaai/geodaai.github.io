@@ -165,10 +165,10 @@ export default function Home(): ReactNode {
           <ExampleCard
             title="GeoDa.AI prototype"
             description="This is a prototype of the GeoDa.AI project"
-            link="https://geoda.ai"
+            link="https://geodaai.netlify.app/"
             imageSrc="/img/geoda-ai.png"
             imageAlt="GeoDa.AI prototype"
-            githubLink="https://github.com/GeoDaCenter/nextgeoda"
+            githubLink="https://github.com/geodaai/geodaai"
           />
           <ExampleCard
             title="GeoDa Data AI"
