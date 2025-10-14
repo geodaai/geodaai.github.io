@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
         powerful tools and interactive chat component.
       </>
     ),
-    learnMoreLink: 'https://openassistant-doc.vercel.app',
+    learnMoreLink: 'https://geodaai.github.io/openassistant/',
     learnMoreText: 'Learn More about OpenAssistant',
   },
   {
