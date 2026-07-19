@@ -1,54 +1,57 @@
 # GeoDa.AI Charter
 
-## Section 0: Guiding Principles (optional)
+## Section 0: Guiding Principles
 
 **Vision:** Spatial data analysis for GenAI.
 
 **Mission:** GeoDa.AI aims to develop modern JavaScript libraries for spatial data analysis that powers AI assistants with advanced geospatial capabilities and interactive interfaces.
 
-## Section 1: Scope
+## Section 1: Mission and Scope of the Project
 
-GeoDa.AI is an open source project that provides modern Javascript librares for spatial data analysis for the AI era:
+GeoDa.AI is an open source project that provides modern JavaScript libraries for spatial data analysis for the AI era. It brings advanced geospatial analytical capabilities to AI assistants and interactive applications, making spatial data science accessible to developers building the next generation of intelligent, data-driven tools.
 
-- 1. [OpenAssistant repository](https://github.com/geodaai/openassistant) - A Javascript library for building AI Assistant with powerful data analysis tools and interactive React chat UI
-- 2. [GeoDa-Lib repository](https://github.com/geodaai/geodalib) - A modern Javascript library for spatial data analysis
+The project consists of the following repositories:
 
-## Section 2: Relationship with OpenJS Foundation CPC.
+- [OpenAssistant](https://github.com/geodaai/openassistant) - A JavaScript library for building AI Assistants with powerful data analysis tools and an interactive React chat UI.
+- [GeoDa-Lib](https://github.com/geodaai/geodalib) - A modern JavaScript library for spatial data analysis.
 
-Technical leadership of the GeoDa.AI project is delegated to the GeoDa.AI Technical Steering Committee (TSC) by the OpenJS Cross Project Council (CPC). The TSC is also responsible for deciding how to allocate earmarked funds it might receive through the Foundation.
-
-Amendments to this charter and to GeoDa.AI's [governance document][governance] require approval from both the CPC, through its [decision-making process][cpc-decision], and the TSC, following the [decision-making policy][geoda-decision] defined in the GeoDa.AI [governance document][governance].
-
-### 2.1 Other Formal Project Relationships (optional)
+### 1.1: In-scope
 
 Section Intentionally Left Blank
 
-## Section 3: GeoDa.AI Project Governing Body
+### 1.2: Out-of-Scope
 
-GeoDa.AI’s governance model and its various governing bodies are defined in GeoDa.AI’s [governance document][governance].
+Section Intentionally Left Blank
 
-## Section 4: Roles & Responsibilities
+## Section 2: Relationship with OpenJS Foundation CPC
 
-The role and responsibilities of GeoDa.AI’s governing bodies are defined in GeoDa.AI’s [governance document][governance].
+The OpenJS Cross Project Council (CPC) delegates technical leadership of this project to the governing body defined in [Section 3 of this charter](#section-3-governing-body-of-the-project).
 
-### Section 4.1 Project Operations & Management (optional)
+This project is entitled to representation in the CPC through voting members as described in [Section 4](https://github.com/openjs-foundation/cross-project-council/blob/main/CPC-CHARTER.md#voting-members) of the CPC Charter.
 
-The GeoDa.AI TSC delegates responsibilities for GeoDa.AI’s operations and management to the GeoDa.AI Working Groups as described in the [TSC's Role section][tsc-role] of GeoDa.AI’s [governance document][governance].
+### 2.1 Other Formal Project Relationships
 
-### Section 4.2: Decision-making, Voting, and/or Elections (optional)
+Section Intentionally Left Blank
 
-GeoDa.AI’s [decision-making policy][geoda-decision] is defined in GeoDa.AI’s [governance document][governance].
+## Section 3: Governing Body of the Project
 
-### Section 4.3: Other Project Roles (optional)
+This project is governed by its Technical Steering Committee (TSC). The current [Steering Committee Members](README.md#steering-committee-members) are listed in the README.
 
-Other project roles are defined in GeoDa.AI’s [governance document][governance] and defined in or referenced from the Contributing documents of repositories in which additional roles are relevant.
+## Section 4: Responsibilities of the Governing Body of the Project
 
-## Section 5: Definitions (optional)
+The responsibilities of this project's governing body are described in [Section 6](https://github.com/openjs-foundation/cross-project-council/blob/main/CPC-CHARTER.md#section-6-non-responsibilities-of-the-cpc) of the CPC Charter.
 
-Terms used throughout the project are defined in the [Glossary section][glossary] of GeoDa.AI’s [governance document][governance].
+## Section 5: Decision-making
+
+Decision making follows the practice adopted by the CPC and described in [Section 9](https://github.com/openjs-foundation/cross-project-council/blob/main/CPC-CHARTER.md#section-9-decision-making) of the CPC Charter.
+
+## Section 6: Voting
+
+Voting follows the practices adopted by the CPC and described in [Section 10](https://github.com/openjs-foundation/cross-project-council/blob/main/CPC-CHARTER.md#section-10-voting) of the CPC Charter.
+
+## Section 7: Changes to this Document
+
+Changes to this document require [approval from the CPC][charter-approval].
 
 [governance]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md
-[cpc-decision]: https://github.com/openjs-foundation/cross-project-council/blob/master/CPC-CHARTER.md#section-9-decision-making
-[geoda-decision]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#decision-making-policy
-[glossary]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#glossary
-[tsc-role]: https://github.com/geodaai/geodaai.github.io/blob/main/GOVERNANCE.md#role
+[charter-approval]: https://github.com/openjs-foundation/cross-project-council/blob/main/governance/GOVERNANCE.md#approving-project-charters
